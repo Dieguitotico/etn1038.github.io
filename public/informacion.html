@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información del Sistema</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #001f3f, #000);
+            color: white;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: yellow;
+            margin-bottom: 30px;
+        }
+
+        .info-text {
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .back-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 15px 30px;
+            border-radius: 25px;
+            background: #ffd700;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            transition: transform 0.3s;
+        }
+
+        .back-button:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Información del Sistema</h1>
+        
+        <div class="info-text">
+            <p>Este sistema de información permite monitorear y evaluar diferentes parámetros a través del tiempo. Los datos mostrados incluyen mediciones de temperatura, humedad, presión y el factor FPF.</p>
+            
+            <p>El sistema utiliza un código de colores para indicar el estado de las mediciones:</p>
+            <ul>
+                <li>Verde: Estado normal</li>
+                <li>Amarillo: Alerta preventiva</li>
+                <li>Naranja: Alerta moderada</li>
+                <li>Rojo: Alerta crítica</li>
+            </ul>
+            
+            <p>Los datos son actualizados regularmente y pueden ser visualizados tanto en formato tabular como en gráficos para un mejor análisis de tendencias.</p>
+        </div>
+
+        <a href="index.html" class="back-button">Volver a la página principal</a>
+    </div>
+</body>
+</html>
